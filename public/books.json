@@ -1,0 +1,146 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "1984.jpg",
+        "review": "A chilling portrayal of a dystopian future where individuality is suppressed.",
+        "totalPages": 328,
+        "rating": 4.5,
+        "category": "Science Fiction",
+        "tags": [
+            "Dystopian",
+            "Political"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 2,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "mockingbird.jpg",
+        "review": "A powerful story addressing racial injustice and moral growth in the South.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": [
+            "Social Justice",
+            "Coming of Age"
+        ],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Catcher in the Rye",
+        "author": "J. D. Salinger",
+        "image": "catcher.jpg",
+        "review": "A classic novel of teenage angst and rebellion that resonates with readers of all ages.",
+        "totalPages": 224,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Coming of Age",
+            "Existential"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "gatsby.jpg",
+        "review": "An exploration of the American Dream through the eyes of the mysterious Jay Gatsby.",
+        "totalPages": 180,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": [
+            "Romance",
+            "Tragedy"
+        ],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "pride.jpg",
+        "review": "A timeless romance that explores social norms and relationships in early 19th-century England.",
+        "totalPages": 432,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Romance",
+            "Social Commentary"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "image": "harry_potter.jpg",
+        "review": "The magical beginning of a beloved series about a young wizard's adventures at Hogwarts School of Witchcraft and Wizardry.",
+        "totalPages": 332,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Adventure"
+        ],
+        "publisher": "Bloomsbury Publishing",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 7,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "hobbit.jpg",
+        "review": "A fantastical journey through Middle-earth with Bilbo Baggins, filled with adventure and danger.",
+        "totalPages": 310,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Epic"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 8,
+        "bookName": "Brave New World",
+        "author": "Aldous Huxley",
+        "image": "brave_new_world.jpg",
+        "review": "A visionary novel that explores a future society driven by technological and social engineering.",
+        "totalPages": 268,
+        "rating": 4.4,
+        "category": "Science Fiction",
+        "tags": [
+            "Dystopian",
+            "Philosophical"
+        ],
+        "publisher": "Chatto & Windus",
+        "yearOfPublishing": 1932
+    },
+    {
+        "bookId": 9,
+        "bookName": "Moby-Dick",
+        "author": "Herman Melville",
+        "image": "moby_dick.jpg",
+        "review": "A gripping tale of obsession and vengeance on the high seas, following Captain Ahab's quest for the elusive white whale.",
+        "totalPages": 635,
+        "rating": 4.2,
+        "category": "Adventure",
+        "tags": [
+            "Classic",
+            "Epic"
+        ],
+        "publisher": "Harper & Brothers",
+        "yearOfPublishing": 1851
+    }
+]
