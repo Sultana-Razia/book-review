@@ -15,7 +15,7 @@ const BookDetails = () => {
     }
 
     const handleWishListMark = wishlistBook => {
-        console.log(wishlistBook);
+        // console.log(wishlistBook);
         addBookToWishlist(wishlistBook);
     }
 

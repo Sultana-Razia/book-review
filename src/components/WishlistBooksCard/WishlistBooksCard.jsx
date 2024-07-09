@@ -5,8 +5,10 @@ import { RiPagesLine } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 
 
-const ReadBooksCard = ({ readBook }) => {
-    const { bookId, bookName, image, author, tags, yearOfPublishing, publisher, totalPages, category, rating } = readBook;
+
+const WishlistBooksCard = ({ wishlistBook }) => {
+    const { bookId, bookName, image, author, tags, yearOfPublishing, publisher, totalPages, category, rating } = wishlistBook;
+
 
     return (
         <div className='flex flex-col md:flex-row gap-6 border border-[#13131326] p-6 mt-8 rounded-2xl'>
@@ -54,8 +56,8 @@ const ReadBooksCard = ({ readBook }) => {
     );
 };
 
-ReadBooksCard.propTypes = {
-    readBook: PropTypes.object,
+WishlistBooksCard.propTypes = {
+    wishlistBook: PropTypes.object,
 }
 
-export default ReadBooksCard;
+export default WishlistBooksCard;
