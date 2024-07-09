@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Book from "../Book/Book";
-
+import { Toaster } from 'react-hot-toast';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -19,6 +19,7 @@ const Books = () => {
                     books.map(book => <Book key={book.bookId} book={book}></Book>)
                 }
             </div>
+            <Toaster></Toaster>
         </div>
     );
 };
