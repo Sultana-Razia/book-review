@@ -35,7 +35,7 @@ const PagesToRead = () => {
     };
 
     return (
-        <div className='mt-12 flex justify-center'>
+        <div className='my-12 flex justify-center'>
             <BarChart
                 width={800}
                 height={300}
