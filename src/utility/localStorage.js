@@ -63,17 +63,17 @@ export const addBookToWishlist = book => {
 
 
 
-export const deleteReadBook = id => {
-    let books = getReadBooks()
-    const remaining = books.filter(b => b.bookId !== id)
-    localStorage.setItem('books', JSON.stringify(remaining))
-    toast.success('Book Removed from read books!')
-}
+// export const deleteReadBook = id => {
+//     let books = getReadBooks()
+//     const remaining = books.filter(b => b.bookId !== id)
+//     localStorage.setItem('books', JSON.stringify(remaining))
+//     toast.success('Book Removed from read books!')
+// }
 
-export const deleteWishlistBook = id => {
-    let books = getWishlistBooks()
-    const remaining = books.filter(b => b.bookId !== id)
-    localStorage.setItem('books', JSON.stringify(remaining))
-    toast.success('Book Removed from wishList books!')
-}
+// export const deleteWishlistBook = id => {
+//     let books = getWishlistBooks()
+//     const remaining = books.filter(b => b.bookId !== id)
+//     localStorage.setItem('books', JSON.stringify(remaining))
+//     toast.success('Book Removed from wishList books!')
+// }
 

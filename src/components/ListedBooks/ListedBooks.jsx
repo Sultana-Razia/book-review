@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 
 const ListedBooks = () => {
@@ -8,7 +9,21 @@ const ListedBooks = () => {
 
     return (
         <div>
-            <h2>Listed Books</h2>
+            <div className="bg-[#1313130D] h-[100px] rounded-2xl text-[#131313] font-extrabold text-2xl flex items-center justify-center mt-9 mb-8">
+                <h1 >Listed Books</h1>
+            </div>
+
+            <div className="flex justify-center mb-10 text-center">
+                <div className="dropdown">
+                    <div tabIndex={0} role="button" className="btn m-1 font-semibold text-lg bg-[#23BE0A] text-white">Sort By<RiArrowDropDownLine size='2em' /></div>
+                    <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 shadow font-semibold">
+                        <li><a>Rating</a></li>
+                        <li><a>Number of pages</a></li>
+                        <li><a>Published year</a></li>
+                    </ul>
+                </div>
+            </div>
+
 
             <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden flex-nowrap dark:bg-gray-100 dark:text-gray-800">
                 <Link
