@@ -3,6 +3,8 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { getReadBooks } from '../../utility/localStorage';
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 
+
+
 const PagesToRead = () => {
 
     const [readBooks, setReadBooks] = useState([]);
@@ -13,12 +15,10 @@ const PagesToRead = () => {
     }, [])
 
 
-    const data = [{ name: 'Page A', uv: 4000, pv: 2400, amt: 2400 }, { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 }, { name: 'Page C', uv: 2000, pv: 9800, amt: 2290 }, { name: 'Page D', uv: 2780, pv: 3908, amt: 2000 }, { name: 'Page E', uv: 1890, pv: 4800, amt: 2181 }, { name: 'Page F', uv: 2390, pv: 3800, amt: 2500 }, { name: 'Page G', uv: 3490, pv: 4300, amt: 2100 }];
-
-    for (const readBook of readBooks) {
-        const { bookName } = readBook;
-
-    }
+    const data = readBooks.map((readBook) => ({
+        name: readBook.bookName,
+        uv: readBook.totalPages,
+    }));
 
 
     const getPath = (x, y, width, height) => {
@@ -35,10 +35,10 @@ const PagesToRead = () => {
     };
 
     return (
-        <div className='my-12 flex justify-center'>
+        <div className='my-12 flex justify-center bg-[#13131308] py-10 rounded-2xl'>
             <BarChart
                 width={800}
-                height={300}
+                height={500}
                 data={data}
                 margin={{
                     top: 20,
